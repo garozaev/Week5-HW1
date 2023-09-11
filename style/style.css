@@ -1,0 +1,66 @@
+header {
+    min-height: 100px;
+    background-color: gray;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    min-height: 500px;
+}
+.main-area {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: end;
+    background-color: blanchedalmond;    
+}
+.h2 {
+    align-self: center;
+}
+.parts {
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+.part-1,
+.part-2 { 
+    width: 40%;
+    height: 70px;
+    text-align: center;
+    background-color: rgb(200, 184, 82);
+}
+.for-part-3 {
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+.part-3 {
+    width: 90%;
+    height: 70px;
+    text-align: center;
+    background-color: rgb(200, 184, 82);
+}
+.aside {
+    display: flex;
+    width: 200px;
+    text-align: center;
+    background-color: aquamarine;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100px;
+    background-color: gray;
+}
+.section-f {
+    width: 150px;
+    height: 70px;
+    text-align: center;
+    background-color: rgb(228, 211, 211);
+}
+body {
+    margin: 0px;
+}/*почему-то не убирает margin браузера*/
